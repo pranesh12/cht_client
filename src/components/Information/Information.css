@@ -1,0 +1,25 @@
+.information {
+  background: var(--secondaryBlack);
+  font-family: "Inconsolata";
+  color: var(--white);
+}
+.information_container {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .row h1 {
+    font-size: 25px;
+    margin-bottom: 1rem;
+  }
+  .row h2,
+  h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .row address,
+  small {
+    font-size: 14px;
+  }
+}

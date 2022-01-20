@@ -1,0 +1,24 @@
+.card_lower_body {
+  font-family: "Inconsolata";
+  background-color: var(--secondaryBlack);
+
+  height: 6rem;
+}
+.card_title {
+  font-size: 1rem;
+  color: var(--green) !important;
+}
+.card_link {
+  color: var(--white) !important;
+  text-decoration: none !important;
+}
+
+.subArticle_card {
+  border: 0 !important;
+}
+
+@media only screen and (max-width: 1160px) {
+  .card_lower_body {
+    height: 8rem;
+  }
+}

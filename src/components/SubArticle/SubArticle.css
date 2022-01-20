@@ -1,0 +1,9 @@
+.sub_article {
+  font-family: "Inconsolata";
+  padding: 3rem 0 !important;
+  color: var(--white);
+  background-color: var(--primaryBlack);
+}
+.ar_header {
+  color: var(--green);
+}

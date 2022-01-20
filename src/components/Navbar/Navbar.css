@@ -1,0 +1,10 @@
+.article_link {
+  text-decoration: none;
+  color: white;
+}
+.nav-link {
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: var(--green) !important;
+}

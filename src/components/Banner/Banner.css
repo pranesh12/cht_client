@@ -1,0 +1,41 @@
+.banner {
+  background-color: var(--secondaryBlack);
+  padding-top: 1rem;
+  padding-bottom: 15rem;
+  color: var(--white);
+  font-family: "Inconsolata";
+}
+
+.banner_left {
+  padding-top: 3rem;
+  margin-left: 1rem;
+}
+
+.banner_left > div {
+  margin-top: 2rem;
+}
+.banner_left p {
+  font-size: 20px;
+  color: var(--white);
+}
+
+.banner_left h1 {
+  font-size: 60px;
+}
+
+.banner_paragraph {
+  font-size: 20px !important;
+}
+
+.discover {
+  color: var(--white);
+  text-decoration: none !important;
+}
+.discover:hover {
+  color: var(--green) !important;
+}
+
+.banner_heading {
+  font-size: 45px !important;
+  color: var(--green);
+}

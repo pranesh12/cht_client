@@ -1,0 +1,34 @@
+.about {
+  font-family: "Inconsolata";
+  background-color: var(--secondaryBlack);
+  color: var(--white);
+}
+.about_header {
+  margin: 3rem 0;
+}
+.about_header h1 {
+  font-size: 3rem;
+}
+.about_content {
+  margin: 3rem 0;
+}
+.about_content p {
+  font-size: 1.2rem;
+}
+.about_iconlist div {
+  margin: 1.1rem 0;
+}
+.about_iconlist {
+  font-size: 1.2rem;
+}
+.about_iconlist i {
+  color: var(--yellow);
+}
+.about_button {
+  margin-top: 1rem;
+  background-color: var(--violet);
+  color: var(--white);
+}
+.about-row {
+  padding: 1rem 0 !important;
+}

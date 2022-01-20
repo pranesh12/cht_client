@@ -1,0 +1,10 @@
+.footer {
+  padding-top: 1rem;
+  background: var(--primaryBlack);
+  font-family: "Inconsolata";
+  color: var(--white);
+}
+
+.icon_list i {
+  padding: 0 8px;
+}

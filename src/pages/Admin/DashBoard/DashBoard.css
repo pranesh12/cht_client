@@ -1,0 +1,73 @@
+.sidebar {
+  background: var(--black);
+  color: var(--white);
+  height: 100vh;
+  position: fixed;
+  width: 250px;
+  font-family: "Inconsolata" !important;
+}
+
+.sidebar ul li {
+  padding: 10px 5px;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* collapse button */
+.custom_menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 0;
+}
+.btn_collapse {
+  position: relative;
+  color: var(--white) !important;
+}
+.btn_collapse:hover {
+  background: var(--white);
+  color: var(--black);
+}
+
+#content {
+  height: 100vh;
+  overflow: auto;
+}
+
+.deleteIcon,
+.editIcon {
+  cursor: pointer;
+}
+.deleteIcon {
+  color: rgba(255, 51, 0, 0.952);
+}
+.editIcon {
+  color: var(--green);
+}
+
+.submit_button {
+  background: var(--primaryBlack) !important;
+  color: var(--green) !important;
+}
+
+.admin_Heading {
+  padding: 0 10px;
+  padding-top: 20px !important;
+  color: var(--green);
+}
+
+.sidebar_heading {
+  padding-left: 1rem !important;
+}
+.sidebar_heading:hover {
+  color: var(--green);
+}
+
+.sidebar_heading:visited {
+  color: var(--green) !important;
+}
+
+.sidebar_heading:active {
+  color: var(--green);
+}

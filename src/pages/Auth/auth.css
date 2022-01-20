@@ -1,0 +1,14 @@
+.auth {
+  padding-top: 15rem;
+
+  font-family: "Inconsolata";
+  height: 90vh;
+}
+.toogleAuth {
+  cursor: pointer;
+  color: var(--green);
+}
+
+.form-control:focus {
+  box-shadow: var(--yellow) !important;
+}

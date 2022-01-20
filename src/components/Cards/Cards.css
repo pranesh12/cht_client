@@ -1,0 +1,23 @@
+.card_lower_body {
+  height: 6rem;
+}
+.card_title {
+  font-size: 1rem;
+}
+.card_link {
+  color: black;
+  text-decoration: none !important;
+}
+
+.main_card {
+  border: none !important;
+}
+.card_link:hover {
+  color: var(--green) !important;
+}
+
+@media only screen and (max-width: 1160px) {
+  .card_lower_body {
+    height: 8rem;
+  }
+}

@@ -1,0 +1,24 @@
+:root {
+  --white: #ffffff;
+  --black: #2d2e32;
+  --primaryBlack: #2d2e32;
+  --secondaryBlack: #25262a;
+  --green: #5bd490;
+  --white: #fdfdfd;
+}
+
+a :visited {
+  color: var(--green) !important;
+}
+
+body {
+  font-family: "Inconsolata";
+}
+
+.nav navbar-nav navbar-right .active a {
+  color: var(--green) !important;
+}
+
+body {
+  overflow-x: hidden;
+}
